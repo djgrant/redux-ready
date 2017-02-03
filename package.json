@@ -1,0 +1,24 @@
+{
+  "name": "redux-ready",
+  "version": "0.1.0",
+  "description": "store.ready().then()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"I am so sorry. Bye.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djgrant/redux-ready"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "redux",
+    "asyc",
+    "data",
+    "declarative"
+  ],
+  "author": "Daniel Grant",
+  "license": "MIT"
+}
