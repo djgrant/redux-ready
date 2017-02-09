@@ -5,7 +5,7 @@ module.exports = function (createStore) {
 
     const dispatch = function (action) {
       const dispatched = store.dispatch(action);
-      if (dispatched.then) {
+      if (dispatched && dispatched.then) {
         promises.push(dispatched);
       }
       return dispatched;
