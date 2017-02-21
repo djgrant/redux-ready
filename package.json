@@ -2,17 +2,15 @@
   "name": "redux-ready",
   "version": "0.1.2",
   "description": "store.ready().then()",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"I am so sorry. Bye.\" && exit 1"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/djgrant/redux-ready"
   },
-  "files": [
-    "index.js"
-  ],
+  "main": "lib/index.umd.js",
+  "files": [ "lib" ],
   "keywords": [
     "redux",
     "asyc",
@@ -20,5 +18,12 @@
     "declarative"
   ],
   "author": "Daniel Grant",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "webpack": "^2.2.1"
+  }
 }

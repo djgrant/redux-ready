@@ -16,6 +16,6 @@ module.exports = function (createStore) {
       return store.getState();
     });
 
-    return Object.assign({}, store, { ready, dispatch });
+    return { ...store,  ready, dispatch };
   };
 };
