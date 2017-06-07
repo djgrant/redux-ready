@@ -10,7 +10,8 @@ Very handy for server rendering redux applications that initialise with async ac
 npm install redux-ready --save
 ```
 
-### Set up
+
+### Setup
 
 ```js
 var withReady = require("redux-ready");
